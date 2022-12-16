@@ -1,0 +1,11 @@
+:root {
+    --light: #151675;
+    --dark: #2024ee;
+}
+
+header {
+	text-align: center;
+	color: white;
+	padding: 20px;
+	background: linear-gradient(to left,var(--light) 47%, var(--dark) 100%);
+}
