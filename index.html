@@ -14,27 +14,26 @@
 <body>
   <!---search side bar-->
   <header class="title"> Weather Dashboard</header>
-  <container>
+  <aside>
     <h1>Search for a City:</h1>
-    <input class="form-row" type="text" placeholder="Search">
-    <button type="submit" class="btn btn-primary" id="initHome">submit
-      &#9825</button>
-  </container>
+    <input id="city" class="form-row" type="text" placeholder="Search">
+    <button type="submit" class="btn btn-primary" id="init">Search</button>
+  </aside>
   <!----------------------------------->
 <h2 class="text-center">DAY</h2>
-
+<!---5-Day Forecast Cards-->
+<container id="">
 <h3 class="text-center">5-day Forecast</h3>
   <div class="row w-100 justify-content-center">
     <div class="card col-2 p-2 m-2">
-      <img id="mealPic" src=". ."  alt="...">
-      <div class="card-body">
+
+      <div id="city" class="card-body">
         <h5 class="card-title" id="mealTitle">Meals</h5>
-        <p class="card-text" id="mealDesc"></p>
+        <p class="card-text" id="city"></p>
       </div>
     </div>
     <!---day -->
     <div class="card col-2 p-2 m-2">
-      <img id="drinkPic" src=". . " alt="...">
       <div class="card-body">
         <h5 class="card-title" id="drinkTitle">Drinks</h5>
         <p class="card-text" id="drinkDesc"></p>
@@ -42,7 +41,6 @@
     </div>
     <!---day -->
     <div class="card col-2 p-2 m-2">
-      <img src=". . ." class="card-img-top" alt="..." id="moviePic">
       <div class="card-body">
         <h5 class="card-title" id="movieTitle">Movies</h5>
         <p class="card-text" id="moviePlot"></p>
@@ -50,7 +48,6 @@
     </div>
     <!--day-->
     <div class="card col-2 p-2 m-2">
-      <img id="mealPic" src=". . ." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title" id="mealTitle">Meals</h5>
         <p class="card-text" id="mealDesc"></p>
@@ -58,7 +55,6 @@
     </div>
     <!---This section is section is for 5 -->
     <div class="card col-2 p-2 m-2">
-      <img id="drinkPic" src=". . ." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title" id="drinkTitle">Drinks</h5>
         <p class="card-text" id="drinkDesc"></p>
@@ -66,6 +62,7 @@
         </ul>
       </div>
     </div>
+  </container>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

@@ -1,17 +1,17 @@
 :root {
-    --light: #151675;
-    --dark: #2024ee;
+    --dark: #151675;
+    --light: #2024ee;
 }
 
 header {
 	text-align: center;
 	color: white;
 	padding: 20px;
-	background: linear-gradient(to left,var(--light) 47%, var(--dark) 100%);
+	background: linear-gradient(to left,var(--dark) 47%, var(--light) 100%);
 }
 
-#card{
+.card{
     background: var(--dark);
-  border: 2px solid var(--light);
+  border: 2px solid var(--dark);
   color: beige;
   }
