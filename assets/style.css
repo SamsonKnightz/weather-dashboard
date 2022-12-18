@@ -1,17 +1,19 @@
 :root {
-    --dark: #151675;
-    --light: #2024ee;
+    --dark: #0c0e5a;
+    --light: #4d4ea8;
 }
 
 header {
-	text-align: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
 	color: white;
 	padding: 20px;
 	background: linear-gradient(to left,var(--dark) 47%, var(--light) 100%);
 }
 
 .card{
-    background: var(--dark);
-  border: 2px solid var(--dark);
+    background: #0d0d44d5;
+  border: 2px solid var(--light);
   color: beige;
   }

@@ -1,4 +1,4 @@
-
+var APIKey = "371dead36e8c5b8aa978441fa4daca9a"
 
 var getCity = function () {
     var city = $('#city').val();
