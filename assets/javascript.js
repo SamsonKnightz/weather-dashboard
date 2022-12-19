@@ -23,7 +23,7 @@ var getCity = function () {
 };
 
 var displayCity = function (data) {
-    $('#cityTitle');
+    $('#cityDesc').text(data.main.temp);
 };
 
 $("#init").click(function(event){
