@@ -1,7 +1,7 @@
 var APIKey = "371dead36e8c5b8aa978441fa4daca9a"
 var city = ""
 
-https://api.openweathermap.org/data/2.5/weather?q=Charlotte&appid=371dead36e8c5b8aa978441fa4daca9a&units=imperial
+//---https://api.openweathermap.org/data/2.5/weather?q=Charlotte&appid=371dead36e8c5b8aa978441fa4daca9a&units=imperial
 
 var getCity = function () {
     var city = $('#cityInput').val();
@@ -23,7 +23,11 @@ var getCity = function () {
 };
 
 var displayCity = function (data) {
-    $('#cityDesc').text(data.main.temp);
+    $('#cityTemp').text(data.main.temp);
+    $('#cityWind').text(data.wind.speed);
+    $('#cityHumidity').text(data.main.humidity);
+
+
 };
 
 $("#init").click(function(event){
